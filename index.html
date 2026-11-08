@@ -1,0 +1,500 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Mohamed Asmar's personal portfolio. Software Engineering graduate and aspiring Full-Stack Developer.">
+    <meta name="author" content="Mohamed Asmar">
+
+    <title>Mohamed Asmar | Full-Stack Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">PORTFOLIO<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-greeting">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hi, I'm <span class="gradient-text">Mohamed Asmar</span>
+                </h1>
+
+                <h2>
+                    I'm an <span id="typing-text"></span>
+                    <span class="typing-cursor">|</span>
+                </h2>
+
+                <p class="hero-description">
+                    I am a Software Engineering graduate passionate
+                    about building modern, responsive and user-friendly
+                    web applications. I enjoy learning new technologies
+                    and turning ideas into practical digital solutions.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="neon-btn primary-btn">
+                        VIEW PROJECTS
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="neon-btn secondary-btn">
+                        CONTACT ME
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/mohamedasmar814-arch"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <span>•</span>
+
+                    <a href="https://www.linkedin.com/in/mohamed-asmar-1a7631425/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                SCROLL TO EXPLORE
+                <span>↓</span>
+            </a>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+
+            <div class="section-heading reveal">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content reveal">
+
+                <div class="about-icon">
+                    <span>MA</span>
+                </div>
+
+                <div class="about-text">
+
+                    <h3>Software Engineering Graduate</h3>
+
+                    <p>
+                        Hello! I'm Mohamed Asmar, a Software Engineering
+                        graduate with an interest in Full-Stack Development.
+                    </p>
+
+                    <p>
+                        I enjoy developing web applications, exploring
+                        new technologies and improving my programming
+                        and problem-solving skills through practical projects.
+                    </p>
+
+                    <p>
+                        My current focus is on improving my frontend and
+                        backend development skills while building useful
+                        applications and gaining professional experience.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Let's work together →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+
+            <div class="section-heading reveal">
+                <p class="section-label">WHAT I WORK WITH</p>
+                <h2>Technical <span>Skills</span></h2>
+                <p class="section-description">
+                    Technologies and tools I have worked with
+                    through learning and practical projects.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">01</div>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">02</div>
+                    <h3>Backend</h3>
+                    <p>PHP, Node.js, Next.js</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">03</div>
+                    <h3>Database</h3>
+                    <p>MySQL, PostgreSQL, Prisma</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">04</div>
+                    <h3>Programming</h3>
+                    <p>Python, TypeScript</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">05</div>
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">06</div>
+                    <h3>Development</h3>
+                    <p>Responsive Design, REST APIs</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+
+            <div class="section-heading reveal">
+                <p class="section-label">MY RECENT WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p class="section-description">
+                    A selection of software development projects
+                    I have worked on.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card reveal">
+
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 01</span>
+                        <span class="project-symbol">✦</span>
+                    </div>
+
+                    <div class="project-visual apparel-visual">
+                        <span>APPARELFLOW</span>
+                        <small>ERP SYSTEM</small>
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>ApparelFlow ERP</h3>
+
+                        <p>
+                            An ERP application designed to support
+                            apparel production workflows, including
+                            cutting, verification and sewing processes.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Prisma</span>
+                            <span>PostgreSQL</span>
+                        </div>
+
+                        <a href="https://github.com/mohamedasmar814-arch/apparelflow-erp"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            View Repository ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card reveal">
+
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 02</span>
+                        <span class="project-symbol">✦</span>
+                    </div>
+
+                    <div class="project-visual study-visual">
+                        <span>STUDYVERSE AI</span>
+                        <small>AI LEARNING PLATFORM</small>
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>StudyVerse AI</h3>
+
+                        <p>
+                            An AI-based learning platform project
+                            designed to support students with
+                            digital learning tools.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>AI Learning</span>
+                        </div>
+
+                        <a href="https://github.com/mohamedasmar814-arch"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            Visit GitHub Profile ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card reveal">
+
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 03</span>
+                        <span class="project-symbol">✦</span>
+                    </div>
+
+                    <div class="project-visual portfolio-visual">
+                        <span>MY PORTFOLIO</span>
+                        <small>PERSONAL WEBSITE</small>
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            A responsive personal portfolio website
+                            showcasing my background, skills,
+                            projects and contact information.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Animation</span>
+                        </div>
+
+                        <a href="https://github.com/mohamedasmar814-arch/mohamed-asmar-portfolio"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            View Repository ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Project 4: Smart Task Manager -->
+                <article class="project-card reveal">
+
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 04</span>
+                        <span class="project-symbol">✦</span>
+                    </div>
+
+                    <div class="project-visual task-visual">
+                        <span>TASKFLOW</span>
+                        <small>SMART TASK MANAGER</small>
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Smart Task Manager</h3>
+
+                        <p>
+                            A responsive task management application
+                            that allows users to create, search, filter,
+                            prioritize and track tasks with due dates
+                            and completion progress.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Local Storage</span>
+                        </div>
+
+                        <a href="https://mohamedasmar814-arch.github.io/smart-task-manager/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            Live Demo ↗
+                        </a>
+
+                        <a href="https://github.com/mohamedasmar814-arch/smart-task-manager"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            View Repository ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section education-section">
+
+            <div class="section-heading reveal">
+                <p class="section-label">MY QUALIFICATIONS</p>
+                <h2>My <span>Education</span></h2>
+            </div>
+
+            <div class="education-list">
+
+                <div class="education-card reveal">
+                    <span class="education-dot"></span>
+                    <p class="education-status">COMPLETED</p>
+                    <h3>HND in Software Engineering</h3>
+                    <p>Pearson BTEC HND in Computing Programme</p>
+                </div>
+
+                <div class="education-card reveal">
+                    <span class="education-dot"></span>
+                    <p class="education-status">COMPLETED</p>
+                    <h3>NVQ Level 3 Diploma in IT</h3>
+                    <p>Information Technology</p>
+                </div>
+
+                <div class="education-card reveal">
+                    <span class="education-dot"></span>
+                    <p class="education-status">COMPLETED</p>
+                    <h3>GCE Ordinary Level</h3>
+                    <p>General Education</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+
+            <div class="section-heading reveal">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Let's Build Something <span>Great</span></h2>
+
+                <p class="section-description">
+                    I'm interested in web development opportunities,
+                    internships and connecting with technology professionals.
+                </p>
+            </div>
+
+            <div class="contact-card reveal">
+
+                <a href="mailto:mohamedasmar814@gmail.com">
+                    <span class="contact-label">EMAIL</span>
+                    <span>mohamedasmar814@gmail.com</span>
+                </a>
+
+                <a href="https://github.com/mohamedasmar814-arch"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <span class="contact-label">GITHUB</span>
+                    <span>View my GitHub profile ↗</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mohamed-asmar-1a7631425/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <span class="contact-label">LINKEDIN</span>
+                    <span>Connect with me ↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="#home" class="footer-logo">PORTFOLIO.</a>
+
+        <p>
+            Designed and developed by Mohamed Asmar.
+        </p>
+
+        <p class="copyright">
+            © 2026 Mohamed Asmar. All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
